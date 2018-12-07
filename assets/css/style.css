@@ -1,0 +1,59 @@
+
+.content {
+    width: 960px;
+}
+
+.head {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    background: #ffffff;
+}
+
+#name {
+    background: #4aaaa5;
+    float: left;
+    width: 30%;
+}
+
+.headcontainer {
+    width: 100%;
+    color: white;
+}
+
+.container2 {
+    border-top: 5px;
+    border-top: solid;
+    border-top-color: green;
+    position: relative;
+}
+
+.myfooter {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    border-top: 5px;
+    border-top: solid;
+    border-top-color: #4aaaa5;
+    color: white;
+    background: #ccc;
+    position: absolute;
+    bottom: 0px;
+}
+
+.mynav {
+    text-align: center;
+    float: right;
+}
+
+#Link1 {
+    padding: 10px;
+}
+
+#Link2 {
+    padding: 10px;
+}
+
+#Link3 {
+    padding: 10px;
+}
