@@ -13,10 +13,11 @@
 }
 
 #name {
+    font-family: 'Georgia', Times, Times New Roman, serif;
     background: #4aaaa5;
     float: left;
     text-align: center;
-    width: 30%;
+    width: 25%;
 }
 
 .mynav {
@@ -28,25 +29,57 @@
     height: 100%;
     border-top: 5px;
     border-top: solid;
-    border-top-color: green;
+    border-top-color: #cccccc;
     background: #dddddd;
-    display: block;
     position: absolute;
+
 }
 
 .mysection {
     background: white;
     width: 960px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    border: solid;
+    border-color: #dddddd;
+}
 
+.aboutme {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    font-size: 23px;
+    width: 920px;
+    display: flex;
+    margin-left: 20px;
+    margin-right: auto;
+    border-bottom: solid;
+    border-bottom-color: #dddddd;
+}
+
+.spacing {
+    width: 920px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 40px;
+    line-height: 30px;
+}
+
+.textwrap {
+    height: 30%;
+    width: 30%;
+    float: left;
+    margin: 0px;
 }
 
 .myfooter {
     width: 100%;
     text-align: center;
     padding: 20px;
-    border-top: 5px;
-    border-top: solid;
-    border-top-color: #4aaaa5;
+    border-top: 8px solid #4aaaa5;
     color: white;
     background: #666666;
     position: absolute;
@@ -63,4 +96,55 @@
 
 #Link3 {
     padding: 10px;
+}
+
+.ContactCenter {
+    display: flex;
+    margin-left: 20px;
+    margin-right: auto;
+    width: 940px;
+}
+
+.Contactaboutme {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    font-size: 23px;
+    width: 920px;
+    display: flex;
+    margin-left: 20px;
+    margin-right: auto;
+    border-bottom: solid;
+    border-bottom-color: #dddddd;
+
+}
+
+.contactname {
+    border: solid;
+    border-color: #dddddd;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 920px;
+}
+
+.contactmessage {
+    border: solid;
+    border-color: #dddddd;
+    padding-bottom: 30px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 920px;
+}
+
+.Button {
+    display: flex;
+    align-content: center;
+    margin-left: 20px;
+    margin-right: auto;
+    width: 8%;
+    color: white;
+    background: #4aaaa5; 
+    margin-bottom: 30px;
 }
