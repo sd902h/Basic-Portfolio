@@ -6,10 +6,20 @@
 .headcontainer {
     width: 960px;
     color: white;
-    display: flex;
-    align-items: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+.aboutmeheadcontainer {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 #name {
@@ -22,27 +32,49 @@
 
 .mynav {
     float: right;
+    margin-top: 21.44px;
+    color: #dddddd;
 }
 
-.container2 {
+.aboutmecontainer2 {
     width: 100%;
-    height: 100%;
+    height: auto;   
     border-top: 5px;
     border-top: solid;
     border-top-color: #cccccc;
     background: #dddddd;
-    position: absolute;
+
+}
+
+.aboutmemysection {
+    width: 960px;
+    background: white;
+    border: solid;
+    border-color: #dddddd;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.container2 {
+    width: 100%;
+    height: 650px;    
+    border-top: 5px;
+    border-top: solid;
+    border-top-color: #cccccc;
+    background: #dddddd;
 
 }
 
 .mysection {
-    background: white;
     width: 960px;
-    display: flex;
+    background: white;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 3%;
+    margin-top: 2%;
     border: solid;
     border-color: #dddddd;
 }
@@ -68,22 +100,38 @@
     line-height: 30px;
 }
 
+.spacetext {
+    margin-left: 10px;
+}
+
 .textwrap {
     height: 30%;
     width: 30%;
     float: left;
-    margin: 0px;
+    margin-right: 20px;
 }
+
+.Portfoliotextwrap {
+    height: 20%;
+    width: 20%;
+    margin-top: 15px;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+.bottomimage {
+    margin-bottom: 20px;
+}
+
+
 
 .myfooter {
     width: 100%;
     text-align: center;
-    padding: 20px;
+    padding-top: 20px;
     border-top: 8px solid #4aaaa5;
     color: white;
     background: #666666;
-    position: absolute;
-    bottom: 0px;
 }
 
 #Link1 {
@@ -140,6 +188,7 @@
 
 .Button {
     display: flex;
+    justify-content: center;
     align-content: center;
     margin-left: 20px;
     margin-right: auto;
